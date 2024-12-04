@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import cross_val_score, train_test_split, KFold
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 from sklearn import metrics
 
